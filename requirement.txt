@@ -20,6 +20,7 @@ pyinstaller==6.5.0
 pyinstaller-hooks-contrib==2024.3
 PyPDF2==3.0.1
 python-docx==1.1.0
+python-dotenv==1.0.1
 pytz==2024.1
 requests==2.31.0
 schedule==1.2.1

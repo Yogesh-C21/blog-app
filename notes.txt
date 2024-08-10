@@ -1,0 +1,6 @@
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py shell
+
+what are querysets?
+its the definition of the database query along with the queried data
