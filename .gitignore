@@ -2,10 +2,15 @@ myenv/
 .env
 __pycache__/
 blog/__pycache__/
+blog/migrations/__pycache__/
 blog_app/__pycache__/
+blog_app/migrations/__pycache__/
 book_store/__pycache__/
+book_store/migrations/__pycache__/
 crud_app/__pycache__/
+crud_app/migrations/__pycache__/
 reviews/__pycache__/
+reviews/migrations/__pycache__/
 *.py[cod]
 *.pyo
 db.sqlite3
