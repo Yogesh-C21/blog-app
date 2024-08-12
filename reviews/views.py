@@ -1,7 +1,20 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
+from django.views import View
 from . import forms
 from .models import Review
+
+# Class based view
+class ReviewView(View):
+    def get(self, request):
+        return render(request, "reviews/reviews.html", { 'form': forms.ReviewForm() })
+    def post(self, request):
+        form = forms.ReviewForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect("/reviews/thanks")
+        else:
+            return render(request, "reviews/reviews.html", { 'form': form })
 
 def index(request):
     # if request.method == 'POST':
