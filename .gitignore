@@ -11,6 +11,9 @@ crud_app/__pycache__/
 crud_app/migrations/__pycache__/
 reviews/__pycache__/
 reviews/migrations/__pycache__/
+profiles/__pycache__/
+profiles/migrations/__pycache__/
+uploads/
 *.py[cod]
 *.pyo
 db.sqlite3
