@@ -13,6 +13,8 @@ reviews/__pycache__/
 reviews/migrations/__pycache__/
 profiles/__pycache__/
 profiles/migrations/__pycache__/
+auth_jwt/__pycache__/
+auth_jwt/migrations/__pycache__/
 uploads/
 *.py[cod]
 *.pyo
