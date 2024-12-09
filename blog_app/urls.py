@@ -22,4 +22,7 @@ urlpatterns = [
     path('', include("blog.urls")),
     path('crud/', include("crud_app.urls")),
     path('book/', include("book_store.urls")),
+    path('reviews/', include("reviews.urls")),
+    path('profiles/', include("profiles.urls")),
+    path('api/', include("auth_jwt.urls")),
 ]
